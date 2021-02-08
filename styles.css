@@ -27,8 +27,8 @@ header {
 
 .container {
   line-height: 1.5;
-  display: inline-grid;
-  grid-template-columns: [ads-left] 0.8fr [news] 1.4fr [ads-right] 0.8fr;
+  display: grid;
+  grid-template-columns: [ads-left] 28% [news] auto [ads-right] 28%;
   margin-top: 40px;
   z-index: 1;
 }
