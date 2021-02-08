@@ -36,6 +36,7 @@ header {
 .news {
   padding: 10px 15px;
   grid-column = news;
+  align-self: center;
 }
 
 .ads-img {
@@ -49,6 +50,7 @@ header {
   background-color: #FEF1FF;
   padding-top: 30%;
   grid-column = ads-left;
+  align-self = start;
 }
 
 .left-ad {
@@ -71,6 +73,7 @@ header {
   background-color: #E6F7FF;
   padding-top: 30%;
   grid-column = ads-right;
+  align-self = end;
 }
 
 .right-ad {
